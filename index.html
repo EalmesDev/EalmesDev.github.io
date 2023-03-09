@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav>
+        <a class="navegacion" href="#info_personal">Información Personal</a>
+        <a class="navegacion" href="#estudios">Estudios</a>
+        <a class="navegacion" href="#habilidades">Habilidades</a>
+        <a class="navegacion" href="#idiomas">Idiomas</a>
+        <a class="navegacion" href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="info_personal">
+        <img id="foto4x4" src="imágenes\foto 4x4.jpg" alt="Foto 4x4 de Emanuel Almestro"/>
+        <h1>Emanuel Almestro</h1>   
+        <p>Desarrollador Jr.</p>    
+    
+        <div id="info_personal">
+            <h2>Información personal</h2>
+        </div>
+        
+    
+        <a href="https://wa.me/5491121884226"><img class="logo" src="imágenes\icono_WhatsApp.png" alt="Símbolo de Whatsapp"><p>+54 9 11 2188-4226<p></a>
+        <a href="mailto:emanuel.almestro@gmail.com"><img class="logo" src="imágenes\icono_mail.png" alt="Símbolo de e-mail"><p>emanuel.almestro@gmail.com</p></a>
+        <a href="https://goo.gl/maps/4in8w2BghfC8cmvi7"><img class="logo" src="imágenes\icono_ubicacion.png" alt="Símbolo de ubicación"><p>Dr. Enrique Finochietto 741, Barracas, Ciudad Autónoma de Buenos Aires, CP 1143, Argentina</p></a>
+           
+    
+        <p><b>Nacionalidad</b></p>
+        <p>Argentino</p>
+        <p><b>Fecha de nacimiento</b></p>
+        <p>julio 3, 1990</p>   
+    </div>
+    <div class="abajo">
+        <p>Desarrolador web junior creativo, con ojo para el detalle y ganas de ofrecer experiencias de usuario de alta calidad. Hábil en la creacion y mantenimiento de sitios web con HTML, CSS y Javascript.</p>
+
+        <div id="estudios">
+            <h2>Estudios</h2>
+        </div>
+
+        <p><b>#SeProgramar, Argentina Programa 4.0</b></p>
+        <p>octubre 2022</p>
+
+        <div class="hide" id="hideText">
+            <img id="cert_arg_prog" src="imágenes\argentina_programa_2022.jpg" alt="Certificado de Argentina Programa 4.0">
+        </div>
+
+        <button class="otros_botones" id="hideText_btn">Certificado</button>
+    
+   
+        <p><b>Desarrollo Front-End</b></p>
+        <p>presente</p>
+
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+        </div>    
+    
+        <ul>
+            <li>Solución de problemas</li>
+            <li>Excelente comunicación</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+
+        <div id="idiomas">
+            <h2>Idiomas</h2>
+        </div>
+
+        <p>Inglés</p>   
+
+        <div id="contacto">
+            <h2>Contacto</h2>
+        </div>
+
+        <form action="" method="post" id="formulario">
+            <input type="text" name="Nombre_y_apellido" id="Nombre_y_apellido" placeholder="Nombre(s) y Apellido(s)" required>
+            <input type="tel" name="Teléfono" id="Teléfono" placeholder="Número de teléfono" required>
+            <input type="email" name="E-mail" id="E-mail" placeholder="E-mail" required>
+            <input type="text" name="Comentario" id="Comentario" placeholder="Comentario">           
+            <button type="submit" class="otros_botones">Enviar</button>
+        </form>
+            
+    </div>
+    <footer>
+        <p>Desarrollado por Emanuel Almestro - 2023 - v1.0</p>
+    </footer>
+    
+    <script src="cv.js"></script>
+
+</body>
+</html>
