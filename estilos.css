@@ -15,9 +15,10 @@ h2 {
     color:rgb(60, 213, 224);
 }
 
-/**ul {
+ul {
     list-style: none;
-}*/
+    color: White;
+}
 
 #foto4x4 { 
     position: relative;
