@@ -141,4 +141,7 @@ input {
         width: 100%;
         height: auto;
     }
+    input {
+        width: 89%;
+    }
 }
