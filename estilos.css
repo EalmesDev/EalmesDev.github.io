@@ -9,7 +9,7 @@ body{
 
 h1, p, b, a, li{
     color:white;
-    text-decoration: none; 
+    /**text-decoration: none;*/
 }
 h2 {
     color:rgb(60, 213, 224);
